@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+
+
+/* 노멀라이징 */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,li{
+    text-decoration: inherit;
+    color: inherit;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+img, video{
+    max-width: 100%;
+    display: block;
+}
+
+
+/* 라이브러리 */
+.cell {
+    float: left;
+}
+
+.cell-r {
+    float: right;
+}
+
+.row::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+/* 커스터마이징 */
+
+html > body{
+    text-underline-position: under;
+    max-width: 1920px;
+}
+
+.home-wrap{
+    width: 100wh;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #C7E0E1;
+   
+   
+}
+
+header{
+    font-family: 'Futura Bk BT';
+    width: 100%;
+    height: 100px;
+  
+}
+
+.header-wrap{
+    width: 1400px; 
+}
+
+
+.logo{
+    width: 95px;
+    height: 95px;
+    margin-left: 40px;
+    
+}
+
+.menu-wrap{
+    width: 568px;
+    height: 68px;
+    /* background-color:  skyblue; */
+    font-size: 17px;
+    color: #828282;
+     margin-right: 116px;
+} 
+
+.menu-wrap > ul > li:not(:last-child){
+    margin-right: 64px;
+}
+
+.menu-wrap > ul > li:hover > a {
+  color: white;
+  
+}
+
+/* home-main */
+
+.home-main{
+    max-width: 1920px;
+    height: 1000px;
+}
+
+/* .home-main_visual{
+    width: 1920px;
+    height: 860px;
+  
+
+} */
+
+.home-main_visual > img{
+   height: 800px;
+
+}
+
+.btn_aboutMe{
+ position: absolute;
+ top: 552px;
+ left: 336px;
+}
+
+
+
+.btn_aboutMe > a:hover > img{
+    filter: drop-shadow(0px 5px 5px #859C9D);
+}
