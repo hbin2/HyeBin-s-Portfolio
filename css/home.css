@@ -103,6 +103,7 @@ header{
 .home-main{
     max-width: 1920px;
     height: 1000px;
+    position: relative;
 }
 
 /* .home-main_visual{
@@ -117,14 +118,55 @@ header{
 
 }
 
+.main-decoration > li:first-child {
+    position: absolute;
+    top: 0px;
+    right: 300px;
+}
+
+.main-decoration > li:first-child >img{
+    animation: fly 1.5s linear infinite;
+}
+
+@keyframes fly {
+    0% {}
+
+    50% {
+        transform: translateY(15px);
+    }
+
+    100% {}
+}
+
+.main-decoration > li:last-child {
+    position: absolute;
+    bottom: 400px;
+    right: 728px;
+}
+
+.main-decoration > li:last-child >img{
+    animation: fly 1.5s linear infinite;
+}
+
+@keyframes fly {
+    0% {}
+
+    50% {
+        transform: translateY(15px);
+    }
+
+    100% {}
+}
+
 .btn_aboutMe{
  position: absolute;
- top: 552px;
- left: 336px;
+ top: 440px;
+ left: 328px;
 }
 
 
 
 .btn_aboutMe > a:hover > img{
+    transition: 0.5s;
     filter: drop-shadow(0px 5px 5px #859C9D);
 }
