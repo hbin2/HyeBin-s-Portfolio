@@ -1,21 +1,22 @@
 @charset "UTF-8";
 
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
 
 /* 노멀라이징 */
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     color: inherit;
     text-decoration: none;
 }
 
-ul,li{
+ul,
+li {
     text-decoration: inherit;
     color: inherit;
     list-style: none;
@@ -23,9 +24,12 @@ ul,li{
     margin: 0;
 }
 
-img, video{
+img,
+video {
     max-width: 100%;
     display: block;
+    image-rendering: -webkit-optimize-contrast !important;
+
 }
 
 
@@ -46,7 +50,218 @@ img, video{
 
 /* 커스터마이징 */
 
-html > body{
+html > body {
     text-underline-position: under;
     max-width: 1920px;
+    font-family: 'Noto Sans KR', sans-serif ;
+    color: #515151;
+}
+
+.branding_layout-wrap {
+    width: 1920px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* branding_main-visual */
+
+.branding_main-visual {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+header {
+    font-family: 'Futura Bk BT';
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: 20;
+
+}
+
+.header-wrap {  
+    width: 1400px;
+}
+
+
+.logo {
+    width: 95px;
+    height: 95px;
+    margin-left: 40px;
+
+}
+
+.menu-wrap {
+    width: 568px;
+    height: 68px;
+    font-size: 17px;
+    color: #ffff;
+    margin-right: 116px;
+    
+}
+
+.menu-wrap>ul>li:not(:last-child) {
+    margin-right: 64px;
+}
+
+.menu-wrap>ul>li:hover>a {
+   color: #737373;
+
+}
+
+/* branding_main-image */
+
+.branding_main {
+    position: absolute;
+}
+
+.branding_main-decoration {
+    position: absolute;
+    top: 156px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* branding-second_wrap */
+.branding_second-wrap {
+    width: 1920px;
+    height: 1400px;
+    font-size: 15px;
+    letter-spacing: 6%;
+    line-height: 30px;
+}
+
+.branding-second_contents{
+    width: 1402px;
+    height: 100%; 
+}
+
+/* branding-second_overview */
+
+.branding-second_overview{
+    width: 100%;
+    height: 300px;
+    margin-top: 240px;
+}
+
+.branding-second_overview > .overview-contents{
+    margin-top: 56px;
+  
+}
+
+.overview-contents > li:last-child{
+    margin-left: 48px;
+}
+
+/* branding-second_keyword */
+
+.branding-second_keyword{
+    width: 100%;
+    height: 517px;
+    margin-top: 138px; 
+}
+
+.keyword-title{
+    margin-left: 56px;
+}
+
+.keyword-title > .keword-title_detail{
+    margin-top: 35px;
+    margin-left: 16px;
+}
+
+.keyword-contents{
+    margin-top: 60px;
+}
+
+/* branding_third-wrap */
+
+.branding_third-wrap{
+    width: 1920px;
+    height: 573px;
+    background-color: #F0F6F6;
+}
+
+.branding_third-wrap .branding-third_contents{
+    width: 1402px; 
+}
+
+.brand-color{
+    width: 1343px;
+    height: 370px;
+    position: absolute;
+    top: 120px;
+     left: 30px;
+
+}
+
+.brand-color_detail{
+    margin-left: 200px;
+    color: #474747;
+}
+
+.brand-color_items > ul {
+    margin-top: 75px;
+}
+
+.brand-color_items > ul > li:not(:first-child){
+ margin-left: 102px;
+}
+
+/* branding_last-wrap */
+
+.branding_last-wrap{
+    width: 1920px;
+    height: 1017px;
+    background-color: #C7E0E1;
+}
+
+.branding_last-contents{
+    width:1402px;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.branding_logo-design{
+  position: absolute;
+  top: 112px;
+  left: 30px;
+}
+
+.logo-design_detail {
+    margin-left: 200px;
+    font-size: 16px;
+    color: #444444;
+}
+
+.logo-design_contents{
+    margin-top: 64px;
+    margin-left: 72px;
+    width: 1131px;
+    height: 620px;
+    background-color: black;
+}
+
+.logo-design_contents .logo-design_plus-1{
+    margin-top: 240px;
+ 
+}
+
+.logo-design_plus-1 > div:first-child > img{
+   width: 350px;
+   height: 187px;
+}
+
+.logo-design_plus-1 > div:last-child {
+    margin-left: 247px;
+ }
+
+.logo-design_contents .logo-design_plus-2{
+    margin-top: 48px;
+}
+
+.logo-design_contents .logo-design_plus-2 > img{
+    width: 520px;
+    height: 540px;
 }
