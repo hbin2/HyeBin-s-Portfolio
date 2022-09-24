@@ -159,20 +159,21 @@ header {
 .branding-second_keyword{
     width: 100%;
     height: 517px;
-    margin-top: 138px; 
+    margin-top: 160px; 
+    
 }
 
 .keyword-title{
-    margin-left: 56px;
+    margin-left: 10px;
 }
 
 .keyword-title > .keword-title_detail{
-    margin-top: 35px;
-    margin-left: 16px;
+    margin-left: 64px;
 }
 
 .keyword-contents{
-    margin-top: 60px;
+    margin-top: 72px;
+    margin-left: -20px;
 }
 
 /* branding_third-wrap */
@@ -213,19 +214,18 @@ header {
 
 .branding_last-wrap{
     width: 1920px;
-    height: 1017px;
+    height: 980px;
     background-color: #C7E0E1;
 }
 
 .branding_last-contents{
     width:1402px;
     height: 100%;
-    background-color: antiquewhite;
 }
 
 .branding_logo-design{
   position: absolute;
-  top: 112px;
+  top: 120px;
   left: 30px;
 }
 
@@ -237,31 +237,104 @@ header {
 
 .logo-design_contents{
     margin-top: 64px;
-    margin-left: 72px;
+    margin-left: 89px;
     width: 1131px;
-    height: 620px;
-    background-color: black;
+    height: 580px;
+    position: relative;
 }
 
-.logo-design_contents .logo-design_plus-1{
-    margin-top: 240px;
+ .logo-design_plus-1{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    z-index: 5;
  
 }
 
-.logo-design_plus-1 > div:first-child > img{
-   width: 350px;
-   height: 187px;
+.logo-design_plus-1 > div:first-child{
+    width: 350px;
+    height: 187px;
+    
 }
+
 
 .logo-design_plus-1 > div:last-child {
-    margin-left: 247px;
+  padding-left: 160px;
+  width: 565px;
+  height: 95px;
+ 
  }
+ 
+
 
 .logo-design_contents .logo-design_plus-2{
-    margin-top: 48px;
+    position: absolute;
+    top: 30px;
+    left: 440px;   
+
 }
 
-.logo-design_contents .logo-design_plus-2 > img{
-    width: 520px;
-    height: 540px;
+.logo-design_contents .logo-design_plus-3{
+    position: absolute;
+    top: 15%;
+    right: 70px;   
+
 }
+
+.logo-design_plus-3 > div:last-child{
+    margin-top: -80px;
+    margin-left: 30px;
+}
+
+/* about-btn-wrap */
+.about-btn-wrap{
+    width: 1920px;
+    height: 300px;
+    background-color: white;
+}
+
+.about-btn-contents{
+    width: 1402px;
+    height: 100%;
+}
+
+.about-btn-items{
+    width: 516px;
+    height: 176px;
+    transform: translateY(40%);
+} 
+
+.btn-items_1 > ul > li:first-child{
+    margin-top: 18px;
+    margin-right: 30px;
+}
+
+.btn-items_1 > ul > li:nth-child(2):hover > img{
+ filter: drop-shadow(0px 4px 4px #98abac);
+ cursor: pointer;
+ transition: 0.2s ;
+}
+
+.btn-items_1 > ul > .pointer {
+    margin-left: -5px;
+    margin-top: 18px;
+    
+}
+
+.btn-items_1 > ul > .pointer > img{
+    animation: pointer 1.3s linear infinite;
+}
+
+    
+   @keyframes pointer {
+        0% {
+            transform: translate( 0px, 0px);
+        }
+    
+        50% {
+            transform: translate( 10px, -10px);
+           
+        }
+    
+        100% {}
+    }
