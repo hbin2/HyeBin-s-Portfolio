@@ -55,11 +55,12 @@ html > body {
     text-underline-position: under;
     max-width: 1920px;
     font-family: 'Noto Sans KR', sans-serif ;
-    color: #515151;
+    color: #0000;
 }
 
 .aboutme_layout-wrap{
-    width: 1920px;
+    width: 100wh;
+    height: 100vh;
     margin: 0 auto;
     background-color: white;
 }
@@ -68,8 +69,11 @@ html > body {
 
 .aboutme_main-visual {
     width: 100%;
-    height: 100vh;
+    height: 970px;
+    background-color: #F9F9F9;
+    overflow: hidden;
     position: relative;
+   
 }
 
 header {
@@ -98,7 +102,7 @@ header {
     width: 568px;
     height: 68px;
     font-size: 17px;
-    color: #fff;
+    color: #ffff;
     margin-right: 116px;
     
 }
@@ -112,7 +116,13 @@ header {
 
 }
 
-/* aboutme_main-decoration */
+
+
+/* aboutme_main */
+
+.aboutme_main-image{
+    width: 100%;
+}
 
 .aboutme_main-decoration{
     position: absolute;
@@ -125,3 +135,216 @@ header {
 .aboutme_main-decoration > ul > li:nth-child(2){
     margin-top: 25px;
 }
+
+/* aboutme_introduce-page */
+
+.aboutme_introduce-page{
+    width: 100wh;
+    height: 820px;
+    font-size: 14px;
+    letter-spacing: 3%;
+    line-height:26px;
+    color: black;
+}
+
+.aboutme_introduce-wrap{
+    width: 1403px;
+    height: 700px;
+    
+}
+
+.aboutme_introduce-title {
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.aboutme_introduce-contents{
+    margin-top: 40px;
+    margin-left: 72px;
+}
+
+.aboutme_introduce-main > img{
+    width: 446px;
+    height: 561px;
+    margin-right: 56px;
+}
+
+.introduce-introduce-items{
+    margin-top: 30px;
+}
+
+.introduce-introduce-items > div:first-child {
+    width: 834px;
+    
+}
+
+.introduce-introduce-items > div:nth-child(2){
+    margin-top: 24px;
+}
+
+.introduce-introduce-items > div:nth-child(2) > .line{
+    width: 197px;
+    margin-top: 12px;
+    margin-right: 16px;
+}
+
+.introduce-introduce-items > div:nth-child(3){
+    margin-top: 64px;
+}
+
+
+/* aboutme_Posibility-page */
+
+.aboutme_posibility-page{
+    width: 100wh;
+    height: 900px;
+    background-color: #F2F8F8;
+}
+
+.aboutme_posibility-wrap{
+    width: 1403px;
+    height: 100%;
+
+}
+
+.posibility-title{
+padding-top: 120px;
+margin-left: 40px;
+   
+}
+
+.posibility-items{
+    margin-top: 48px;
+    margin-left: 84px;
+}
+
+.posibility-items > .items-1{
+    margin-right: 32px;
+}
+
+/* aboutme_designSkill-page */
+
+.aboutme_designSkill-page{
+    width: 100wh;
+    height: 760px;
+}
+
+.aboutme_designSkill-wrap{
+    width: 1403px;
+    height: 100%;
+
+
+}
+
+.designSkill-title{
+    padding-top: 112px;
+    margin-left: 40px;
+}
+
+.designSkill-items{
+    margin-top: 86px;
+    margin-left: 64px;
+}
+
+.designSkill-items > ul > li:not(:last-child){
+    margin-right: 96px;
+}
+
+/* aboutme_hyebin-page */
+.aboutme_hyebin-page{
+    width: 100wh;
+    height: 1000px;
+    background-color: #F2F8F8;
+}
+
+.aboutme_hyebin-wrap{
+    width: 1403px;
+    height: 100%;
+}
+
+.hyebin-profile{
+    margin-top: 136px;
+    margin-left: 98px;
+    margin-right: 145px;
+}
+
+.hyebin-contents{
+    margin-top: 128px;
+}
+
+.hyebin-contents .contents-1{
+    margin-bottom: 40px;
+}
+
+.hyebin-contents .contents-1 .certificate-items{
+    margin-top: 16px;
+}
+
+.hyebin-contents .contents-2 .vision-items{
+    margin-top: 16px;
+}
+
+/* portfolio-btn-page */
+
+.portfolio-btn-page{
+    width: 100wh;
+    height: 280px;
+
+}
+
+.portfolio-btn-wrap{
+    width: 100wh;
+    height: 176px;
+ 
+
+}
+
+.portfolio-btn-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.portfolio-btn-contents{
+    width: 1403px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.btn-items_1 > ul > li:first-child{
+    margin-top: 18px;
+    margin-right: 30px;
+}
+
+.btn-items_1 > ul > li:nth-child(2):hover .aboutme-btn{
+ filter: drop-shadow(0px 4px 4px #98abac);
+ cursor: pointer;
+ transition: 0.2s ;
+}
+
+.btn-items_1 > ul > .pointer {
+    margin-left: -5px;
+    margin-top: 18px;
+    
+}
+
+.btn-items_1 > ul > .pointer > img{
+    animation: pointer 1.3s linear infinite;
+}
+
+    
+   @keyframes pointer {
+        0% {
+            transform: translate( 0px, 0px);
+        }
+    
+        50% {
+            transform: translate( 10px, -10px);
+           
+        }
+    
+        100% {}
+    }

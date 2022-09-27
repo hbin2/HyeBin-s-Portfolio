@@ -58,7 +58,8 @@ html > body {
 }
 
 .branding_layout-wrap {
-    width: 1920px;
+    width: 100wh;
+    height: 100vh;
     margin: 0 auto;
     background-color: white;
 }
@@ -66,7 +67,7 @@ html > body {
 /* branding_main-visual */
 
 .branding_main-visual {
-    width: 100%;
+    width: 100wh;
     height: 100vh;
     position: relative;
 }
@@ -126,7 +127,7 @@ header {
 
 /* branding-second_wrap */
 .branding_second-wrap {
-    width: 1920px;
+   width: 100wh;
     height: 1400px;
     font-size: 15px;
     letter-spacing: 6%;
@@ -165,11 +166,11 @@ header {
 }
 
 .keyword-title{
-    margin-left: 10px;
+    margin-left: 16px;
 }
 
 .keyword-title > .keword-title_detail{
-    margin-left: 64px;
+    margin-left: 65px;
 }
 
 .keyword-contents{
@@ -180,7 +181,7 @@ header {
 /* branding_third-wrap */
 
 .branding_third-wrap{
-    width: 1920px;
+    width: 100wh;
     height: 573px;
     background-color: #F0F6F6;
 }
@@ -214,7 +215,7 @@ header {
 /* branding_last-wrap */
 
 .branding_last-wrap{
-    width: 1920px;
+    width: 100wh;
     height: 980px;
     background-color: #C7E0E1;
 }
@@ -289,7 +290,7 @@ header {
 
 /* about-btn-wrap */
 .about-btn-wrap{
-    width: 1920px;
+    width: 100wh;
     height: 300px;
     background-color: white;
 }
