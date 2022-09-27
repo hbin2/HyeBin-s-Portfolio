@@ -86,10 +86,11 @@ header {
 
 
 .logo {
-    width: 95px;
-    height: 95px;
+    width: 77px;
+    height: 78px;
     margin-left: 40px;
-
+    margin-top: 10px;
+   
 }
 
 .menu-wrap {

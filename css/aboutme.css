@@ -26,6 +26,7 @@ li {
 
 img,
 video {
+    object-fit: cover;
     max-width: 100%;
     display: block;
     image-rendering: -webkit-optimize-contrast !important;
@@ -55,4 +56,72 @@ html > body {
     max-width: 1920px;
     font-family: 'Noto Sans KR', sans-serif ;
     color: #515151;
+}
+
+.aboutme_layout-wrap{
+    width: 1920px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* aboutme_main-visual */
+
+.aboutme_main-visual {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+header {
+    font-family: 'Futura Bk BT';
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    z-index: 20;
+
+}
+
+.header-wrap {  
+    width: 1400px;
+}
+
+
+.logo {
+    width: 77px;
+    height: 78px;
+    margin-left: 40px;
+    margin-top: 10px;
+
+}
+
+.menu-wrap {
+    width: 568px;
+    height: 68px;
+    font-size: 17px;
+    color: #fff;
+    margin-right: 116px;
+    
+}
+
+.menu-wrap>ul>li:not(:last-child) {
+    margin-right: 64px;
+}
+
+.menu-wrap>ul>li:hover>a {
+   color: #737373;
+
+}
+
+/* aboutme_main-decoration */
+
+.aboutme_main-decoration{
+    position: absolute;
+    width: 788px;
+    height: 230px;
+    bottom: 258px;
+    left: 15%;
+}
+
+.aboutme_main-decoration > ul > li:nth-child(2){
+    margin-top: 25px;
 }
