@@ -189,7 +189,7 @@ header {
 
 .top-items-list{
     margin-top: 10%;
-    margin-right: 111px;
+    margin-left: 0px;
 }
 
 .top-items-list > li > p:first-child::before {
@@ -219,7 +219,7 @@ header {
     width: 672px;
     height: 100%;
     background-color: rgba(203, 226, 227, 0.5);
-    /* margin-left: 120px; */
+    margin-left: 120px;
 }
 
 .macbook{
