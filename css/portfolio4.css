@@ -90,15 +90,13 @@ header {
 
 
 .logo {
-    width: 77px;
-    height: 78px;
-    margin-left: 44px;
+    width: 72px;
+    height: 74px;
+    margin-left: 48px;
     margin-top: 10px;
     
 
 }
-
-
 
 .menu-wrap {
     width: 568px;
@@ -110,12 +108,12 @@ header {
 }
 
 .menu-wrap>ul>li:not(:last-child) {
-    margin-right: 64px;
+    margin-right: 60px;
 }
 
 .menu-wrap>ul>li:hover>a {
-   color: #ff0000;
-
+   color: #EA9F2F;
+   
 }
 
 /* portfolio-contents-wrap */
@@ -134,13 +132,13 @@ header {
   .portfolio-contents-wrap .left{
     width: 426px;
     height: 100%;
-    background-color:#B80505;
+    background-color:#FFFDE7;
   }
 
   .portfolio-contents-wrap .right{
     width: 974px;
     height: 100%;
-    background-color: #585858;
+    background-color: #FFDA56;
   }
 
   /* left */
@@ -156,7 +154,7 @@ header {
     top: 250px;
     left: 176px;
     font-size: 24px;
-    color: #ffff;
+    color: #7A7A7A;
      
   }
 
@@ -172,15 +170,15 @@ header {
 
   .left-menu li:hover {
    font-weight: bold;
-   color: black;
-   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   color: #fcad38;
+   text-shadow: 0px 4px 4px rgba(187, 186, 186, 0.503);
    transition: 0.3s;
 }
 
-.left-menu li:nth-child(2){
+.left-menu li:last-child{
     font-weight: bold;
-    color: black;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #fcad38;
+    text-shadow: 0px 4px 4px rgba(187, 186, 186, 0.503);
 }
 
 /* right  */
@@ -197,7 +195,7 @@ header {
 
 .top-items-list{
     margin-top: 10%;
-    margin-right: 111px;
+
 }
 
 .top-items-list > li > p:first-child::before {
@@ -227,13 +225,18 @@ header {
     width: 672px;
     height: 100%;
     background-color: rgba(203, 226, 227, 0.5);
-    /* margin-left: 120px; */
+    margin-left: 125.5px;
+}
+
+.top-items-visual > img{
+    width: 672px;
+    height: 100%;
 }
 
 .macbook{
    position: absolute;
-   top: 48px;
-   left: 104px;
+   top: 0px;
+   left: 123px;
 
 }
 
@@ -246,6 +249,7 @@ header {
     bottom: 40px;
     left: 70px;
     color: #ffffff;
+ 
 }
 .page-title{
     font-size: 60px;
@@ -275,7 +279,7 @@ header {
 
 
 .view-btn:hover{
- filter: drop-shadow( 0px 3px 7px #AAB9BA);
+ filter: drop-shadow( 0px 3px 15px #fffffff6);
 }
 
 
@@ -289,6 +293,6 @@ header {
 }
 
 .bottom-items_3{
-    margin-top: 58px;
+    margin-top: 40px;
     
    }

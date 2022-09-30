@@ -92,7 +92,7 @@ header {
 .logo {
     width: 77px;
     height: 78px;
-    margin-left: 40px;
+    margin-left: 44px;
     margin-top: 10px;
     
 
@@ -112,8 +112,8 @@ header {
 }
 
 .menu-wrap>ul>li:hover>a {
-   color: #ff0000;
-   text-shadow: 3px 3px 4px rgba(63, 80, 85, 0.315);
+   color: #fff8bd;
+ 
 }
 
 /* portfolio-contents-wrap */
@@ -132,13 +132,13 @@ header {
   .portfolio-contents-wrap .left{
     width: 426px;
     height: 100%;
-    background-color:#B80505;
+    background-color:#F8CFD6;
   }
 
   .portfolio-contents-wrap .right{
     width: 974px;
     height: 100%;
-    background-color: #585858;
+    background-color: #ECAAB5;
   }
 
   /* left */
@@ -170,9 +170,15 @@ header {
 
   .left-menu li:hover {
    font-weight: bold;
-   color: black;
-   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   color: #FFFCE1;
+   text-shadow: 0px 4px 4px rgba(1, 1, 1, 0.25);
    transition: 0.3s;
+}
+
+.left-menu li:nth-child(3){
+  font-weight: bold;
+   color: #FFFCE1;
+   text-shadow: 0px 4px 4px rgba(1, 1, 1, 0.25);
 }
 
 /* right  */
@@ -189,7 +195,7 @@ header {
 
 .top-items-list{
     margin-top: 10%;
-    margin-left: 0px;
+    margin-right: 111px;
 }
 
 .top-items-list > li > p:first-child::before {
@@ -219,7 +225,7 @@ header {
     width: 672px;
     height: 100%;
     background-color: rgba(203, 226, 227, 0.5);
-    margin-left: 120px;
+    /* margin-left: 120px; */
 }
 
 .macbook{
@@ -267,7 +273,7 @@ header {
 
 
 .view-btn:hover{
- filter: drop-shadow( 0px 3px 7px #AAB9BA);
+ filter: drop-shadow( 0px 3px 15px #ffffff);
 }
 
 
@@ -281,7 +287,5 @@ header {
 }
 
 .bottom-items_3{
-    margin-top: 62px;
-    width: 62px;
-    height: 29px;
+    margin-top: 58px;
    }
