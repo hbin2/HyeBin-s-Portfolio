@@ -29,6 +29,8 @@ video {
     max-width: 100%;
     display: block;
     image-rendering: -webkit-optimize-contrast !important;
+    transform:translateZ(0);
+    backface-visibility:hidden;
 
 }
 

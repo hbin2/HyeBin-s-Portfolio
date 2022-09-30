@@ -102,7 +102,7 @@ header {
     width: 568px;
     height: 68px;
     font-size: 17px;
-    color: #A6C8C6;
+    color: #ffffff;
     margin-right: 116px;
     
 }
@@ -112,7 +112,7 @@ header {
 }
 
 .menu-wrap>ul>li:hover>a {
-   color: #ffffff;
+   color: #ff0000;
    text-shadow: 3px 3px 4px rgba(63, 80, 85, 0.315);
 }
 
@@ -132,18 +132,18 @@ header {
   .portfolio-contents-wrap .left{
     width: 426px;
     height: 100%;
-    background-color:#C7E0E1;
+    background-color:#B80505;
   }
 
   .portfolio-contents-wrap .right{
     width: 974px;
     height: 100%;
-    background-color: #EFFAFB;
+    background-color: #585858;
   }
 
   /* left */
 
-  .left{
+.left{
     position: relative;
 }
 
@@ -151,7 +151,7 @@ header {
     width: 202px;
     height: 320px;
     position: absolute;
-    top: 250px;
+    top: 300px;
     left: 176px;
     font-size: 24px;
     color: #ffff;
@@ -167,15 +167,11 @@ header {
   }
 
   .left-menu li:hover {
-      font-weight: bold;
-      background: #D2FFFC;
-      background: linear-gradient(to right, #D2FFFC 0%, #FBFFFF 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      filter: drop-shadow( 0px 4px 4px rgba(0, 0, 0, 0.25));
-      transition: 0.3s;
-
-  }
+   font-weight: bold;
+   color: black;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   transition: 0.3s;
+}
 
 /* right  */
 
@@ -184,14 +180,13 @@ header {
    width: 918px;
    height: 430px;
    position: absolute;
-   top: 200px;
+   top: 211px;
    right: 0;
 }
 
 .top-items-list{
-    margin-top: 10%;
-    margin-left: 0px;
-    color: #686868;
+    margin-top: 12%;
+    margin-right: 32px;
 }
 
 .top-items-list > li > p:first-child::before {
@@ -217,6 +212,7 @@ header {
 
 
 .top-items-visual{
+    position: relative;
     width: 672px;
     height: 100%;
     background-color: rgba(203, 226, 227, 0.5);
@@ -224,8 +220,9 @@ header {
 }
 
 .macbook{
-    margin-top: 48px;
-    margin-left: 104px;
+   position: absolute;
+   top: 48px;
+   left: 104px;
 
 }
 
@@ -238,7 +235,7 @@ header {
     /* background-color: pink; */
     bottom: 40px;
     left: 70px;
-    color: #4D4D4D;
+    color: #ffffff;
 }
 
 .page-title{
@@ -258,14 +255,18 @@ header {
 }
 
 .view-btn{
-    object-fit: cover;
     margin-top: 18px;
     margin-left: 32px;
     transition: 0.3s;
+    width: 126px;
+    height: 45px;
+   
 }
 
+
+
 .view-btn:hover{
- filter: drop-shadow( 0px 3px 5px #9eb0b1);
+ filter: drop-shadow( 0px 4px 8px #AAB9BA);
 }
 
 
