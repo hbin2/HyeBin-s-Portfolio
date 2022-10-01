@@ -274,7 +274,8 @@ header {
 }
 
 .view-btn:hover{
- filter: drop-shadow( 0px 3px 5px #9eb0b1);
+ filter: drop-shadow( 0px 3px 5px #aababb);
+ transform: scale(1.1);
 }
 
 

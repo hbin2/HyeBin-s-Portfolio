@@ -276,6 +276,7 @@ header {
 
 .view-btn:hover{
  filter: drop-shadow( 0px 3px 7px #AAB9BA);
+ transform: scale(1.1);
 }
 
 
